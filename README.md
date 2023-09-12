@@ -21,5 +21,5 @@ In this study, we propose a human-in-the-loop pipeline that guides LLMs to produ
  - stage1：run `translation_hil.py`.
  - stage2：run `compare_hil.py`.
 
-*All results about the experiment are stored in `data/experiment_result_data`.
+*All results about the experiment are stored in `data`.
 
