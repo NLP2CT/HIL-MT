@@ -14,7 +14,7 @@ In this study, we propose a human-in-the-loop pipeline that guides LLMs to produ
 
  - Initial translation results are obtained via `translation_base.py`.
  - Get TER-based generated Feedback via `sacrebleu_patch/sacrebleu.py sacrebleu [ref] -m ter --ter-trace-file op.json < [hypo]`.
- - Get In-context demostrations by running `retrieval.py [DATA_STORE_PATH] [TEST_SET_PATH]`
+ - Get In-context demonstrations by running `retrieval.py [DATA_STORE_PATH] [TEST_SET_PATH]`
 
  ## 3. In-context Refinement Translation Pipeline
 
